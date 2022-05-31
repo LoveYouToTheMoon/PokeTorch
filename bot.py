@@ -86,6 +86,7 @@ def updateinv(arr):
   inventory.update({"ultraball":int(arr[8])})
   inventory.update({"diveball":int(arr[9])})
   inventory.update({"masterball":int(arr[10])})
+  '''
   inventory.update({"rare_lootbox":int(arr[13])})
   inventory.update({"superrare_lootbox":int(arr[14])})
   inventory.update({"legendary_lootbox":int(arr[15])})
@@ -110,8 +111,8 @@ def updateinv(arr):
   inventory.update({"candy_cane":int(arr[40])})
   inventory.update({"cupcake":int(arr[41])})
   inventory.update({"gingerbread_cookie":int(arr[42])})
-
-
+  '''
+  
 @client.event
 async def on_ready():
   # login 
@@ -230,7 +231,6 @@ async def on_ready():
         inventory["pokecoin"] -= cfg.buymb*100000
         inventory["masterball"] = cfg.buymb
         print(f"Bought {str(cfg.buymb)} masterballs for {str(cfg.buymb*100000)} pokecoins.")
-
     await asyncio.sleep(sleep(8))
 
 def start():
