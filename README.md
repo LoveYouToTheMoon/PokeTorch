@@ -3,10 +3,10 @@
 A farm bot for Pokemeow. Solves captcha with custom trained weights with YOLOv5 and PyTorch.
 
 ### Prerequisites :
-- Install latest version of Python https://www.python.org/downloads/
+- Install latest version of Python from https://www.python.org/downloads/ or if on Windows, from microsoft store. https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5?hl=en-us&gl=US
 - If running on Ubuntu "sudo apt install libgl1-mesa-glx"
 - Install Git https://git-scm.com/downloads
-- Install 2Captcha "pip install 2captcha-python"
+- Install 2Captcha "python3 -m pip install 2captcha-python"
 
 ### Installation with terminal :
 
@@ -18,7 +18,7 @@ git clone https://github.com/jakelovescoding/PokeTorch.git
 cd PokeTorch
 
 # install requirements
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
 ```
 
